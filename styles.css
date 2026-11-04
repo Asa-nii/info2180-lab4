@@ -1,9 +1,35 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
-    color: black;
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
 }
 
-#searchButton{
-    size: 40px;
+h1 {
+    background: #1886db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;        
+    padding: 0 16px;
+}
+
+#SearchArea {
+    display: flex;         
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#searchTextBox { 
+    padding: 10px;
+    flex:auto }
+
+#searchButton {
+    background: #c62828;
+    color: white;
+    border-style: none;
 }

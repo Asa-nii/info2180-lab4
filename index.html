@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-    <head>
-        <script src="app.js" defer></script>
-        <link href="styles.css" rel="stylesheet"></link>
-    </head>
-    <body>
-        <h1>Avengers Character Search</h1>
-    
-<div id ="SearchArea">
-    <button id="searchButton">Search for your hero!</button>
-
-
-</div>
-    </body>
-
-    </html>
+<head>
+    <title>Avengers Character Search</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Avengers Character Search</h1>
+    <div class="container">
+        <div id="SearchArea">
+            <input type="text" id="searchTextBox" placeholder="Type Name or Alias of your hero and press search">
+            <button id="searchButton">Search</button>
+        </div>
+        <h2 id="resultHeading">Result</h2>
+        <hr>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
