@@ -1,0 +1,9 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: black;
+}
+
+#searchButton{
+    size: 40px;
+}
